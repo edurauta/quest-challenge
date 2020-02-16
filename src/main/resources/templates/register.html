@@ -93,7 +93,7 @@
 		var setDate = new Date(parseInt(dates[0]) + minimumAge, dates[1] - 1, dates[2]);
         var todayDate = new Date();
 
-		if(!$("#mobile").val().startsWith("08")){
+		if($("#mobile").val() && !$("#mobile").val().startsWith("08")){
 			$("#div-mobile").addClass("has-error");
 	       	$("#error-mobile").html("Must begin with 08 prefix");
 	       	return false;
