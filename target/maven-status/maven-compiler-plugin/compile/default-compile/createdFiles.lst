@@ -1,7 +1,0 @@
-ie\quest\challenge\repository\PersonRepository.class
-ie\quest\challenge\web\RegisterController.class
-ie\quest\challenge\model\Person.class
-ie\quest\challenge\web\MainController.class
-ie\quest\challenge\web\ListController.class
-ie\quest\challenge\Application.class
-ie\quest\challenge\service\PersonService.class
